@@ -1,13 +1,11 @@
-version: 2
 
 sources:
-  - name: raw  # Use the actual name of your dataset (BigQuery dataset)
+  - name: gz_raw_data  
     description: "This dataset contains raw transactional data."
     tables:
-      - name: sales  # Use the actual name of your table
+      - name: raw_gz_sales 
         description: "This table contains raw sales transaction data."
-      - name: product  # Use the actual name of your table
+      - name: raw_gz_product 
         description: "This table contains raw product details."
-      - name: ship  # Use the actual name of your table
+      - name: raw_gz_ship  
         description: "This table contains raw shipping information."
-
