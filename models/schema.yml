@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw  # Use the actual name of your dataset (BigQuery dataset)
+    description: "This dataset contains raw transactional data."
+    tables:
+      - name: sales  # Use the actual name of your table
+        description: "This table contains raw sales transaction data."
+      - name: product  # Use the actual name of your table
+        description: "This table contains raw product details."
+      - name: ship  # Use the actual name of your table
+        description: "This table contains raw shipping information."
+
