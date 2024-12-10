@@ -1,11 +1,15 @@
 
 sources:
   - name: raw
+    schema: gz_raw_data  
     description: "This dataset contains raw transactional data."
     tables:
       - name: sales 
+        identifier: raw_gz_sales
         description: "This table contains raw sales transaction data."
       - name: product 
+        identifier: raw_product
         description: "This table contains raw product details."
       - name: ship  
+        identifier: raw_ship
         description: "This table contains raw shipping information."
