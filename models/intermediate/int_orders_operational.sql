@@ -1,7 +1,7 @@
 Select 
 o.date_date,
 o.orders_id,
-round(o.margin + s.shipping_fee - (s.log_cost - s.ship_cost),2) as opertional_margin,
+round(o.margin + s.shipping_fee - (s.log_cost - s.ship_cost), 2) AS operational_margin,
 o.revenue,
 o.quantity,
 o.purchase_cost,
